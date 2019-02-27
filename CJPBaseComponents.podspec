@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'CJPBaseComponents/Classes/**/*'
   
-  s.Subspecs 'Category' do |c|
-  s.source_files = 'CJPBaseComponents/Classes/Category/**/*'
+  s.subspec 'Category' do |c|
+  c.source_files = 'CJPBaseComponents/Classes/Category/**/*'
   end
   
   # s.resource_bundles = {
