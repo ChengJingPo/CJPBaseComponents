@@ -1,0 +1,22 @@
+{
+  "name": "CJPBaseComponents",
+  "version": "0.1.0",
+  "summary": "A short description of CJPBaseComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ChengJingPo/CJPBaseComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChengJingPo": "chengjingpo624@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ChengJingPo/CJPBaseComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CJPBaseComponents/Classes/**/*"
+}

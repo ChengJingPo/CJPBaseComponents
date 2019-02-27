@@ -1,0 +1,6 @@
+framework module Pods_CJPBaseComponents_Tests {
+  umbrella header "Pods-CJPBaseComponents_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

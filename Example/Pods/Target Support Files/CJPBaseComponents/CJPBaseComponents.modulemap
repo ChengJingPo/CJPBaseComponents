@@ -1,0 +1,6 @@
+framework module CJPBaseComponents {
+  umbrella header "CJPBaseComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

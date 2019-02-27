@@ -1,0 +1,16 @@
+PODS:
+  - CJPBaseComponents (0.1.0)
+
+DEPENDENCIES:
+  - CJPBaseComponents (from `../`)
+
+EXTERNAL SOURCES:
+  CJPBaseComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJPBaseComponents: 7cc453b4cdd91b216e475cc8bf83285bfc7939ba
+
+PODFILE CHECKSUM: 131c6ead632f187426a3e7fe963e17a99f3331e6
+
+COCOAPODS: 1.6.0.beta.2
