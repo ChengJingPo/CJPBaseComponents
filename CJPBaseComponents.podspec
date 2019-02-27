@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJPBaseComponents'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = ' CJPBaseComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CJPBaseComponents/Classes/**/*'
+  
+  s.Subspecs 'Category' do |C|
+  end
   
   # s.resource_bundles = {
   #   'CJPBaseComponents' => ['CJPBaseComponents/Assets/*.png']
