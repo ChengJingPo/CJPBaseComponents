@@ -17,7 +17,9 @@ CJPBaseComponents is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CJPBaseComponents'
+pod 'CJPBaseComponents'  //会加载所有的文件（包括当前需要的和不需要的）
+如：pod 'CJPBaseComponents/Category', '~> 0.2.1' //若您要只使用分类，其他的不用，您可以使用这个
+
 ```
 
 ## Author
