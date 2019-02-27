@@ -28,9 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CJPBaseComponents/Classes/**/*'
+  #s.source_files = 'CJPBaseComponents/Classes/**/*'
   
-  s.Subspecs 'Category' do |C|
+  s.Subspecs 'Category' do |c|
+  s.source_files = 'CJPBaseComponents/Classes/Category/**/*'
   end
   
   # s.resource_bundles = {
